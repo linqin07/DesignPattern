@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Mobile</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">com.Client</node>
+    <node x="51.0" y="82.0">com.Adapter</node>
+    <node x="113.0" y="0.0">com.TypeC</node>
+    <node x="0.0" y="0.0">com.Mobile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Adapter" target="com.Mobile">
+      <point x="-25.0" y="-16.0" />
+      <point x="76.0" y="57.0" />
+      <point x="46.5" y="57.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.Adapter" target="com.TypeC">
+      <point x="25.0" y="-16.0" />
+      <point x="126.0" y="57.0" />
+      <point x="155.5" y="57.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="99.0" y="95.5" />
+  <SelectedNodes>
+    <node>com.Mobile</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Decorator</OriginalElement>
+  <nodes>
+    <node x="165.0" y="164.0">com.ManDecoratorA</node>
+    <node x="97.5" y="82.0">com.Decorator</node>
+    <node x="232.5" y="82.0">com.Man</node>
+    <node x="123.0" y="242.0">com.Test</node>
+    <node x="0.0" y="164.0">com.ManDecoratorB</node>
+    <node x="164.75" y="0.0">com.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Man" target="com.Person">
+      <point x="0.0" y="-16.0" />
+      <point x="267.5" y="57.0" />
+      <point x="234.5" y="57.0" />
+      <point x="23.25" y="16.0" />
+    </edge>
+    <edge source="com.ManDecoratorB" target="com.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="72.5" y="139.0" />
+      <point x="126.25" y="139.0" />
+      <point x="-28.75" y="16.0" />
+    </edge>
+    <edge source="com.ManDecoratorA" target="com.Decorator">
+      <point x="0.0" y="-16.0" />
+      <point x="237.5" y="139.0" />
+      <point x="183.75" y="139.0" />
+      <point x="28.75" y="16.0" />
+    </edge>
+    <edge source="com.Decorator" target="com.Person">
+      <point x="0.0" y="-16.0" />
+      <point x="155.0" y="57.0" />
+      <point x="188.0" y="57.0" />
+      <point x="-23.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="155.0" y="137.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

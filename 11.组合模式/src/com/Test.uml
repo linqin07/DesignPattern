@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Test</OriginalElement>
+  <nodes>
+    <node x="0.0" y="132.0">com.Programmer</node>
+    <node x="113.5" y="0.0">com.Employer</node>
+    <node x="143.0" y="132.0">com.ProjectManager</node>
+    <node x="169.0" y="214.0">com.Test</node>
+    <node x="316.0" y="132.0">com.ProjectAssistant</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Programmer" target="com.Employer">
+      <point x="0.0" y="-16.0" />
+      <point x="61.5" y="107.0" />
+      <point x="148.83333333333331" y="107.0" />
+      <point x="-70.66666666666669" y="41.0" />
+    </edge>
+    <edge source="com.ProjectAssistant" target="com.Employer">
+      <point x="0.0" y="-16.0" />
+      <point x="400.0" y="107.0" />
+      <point x="290.1666666666667" y="107.0" />
+      <point x="70.66666666666669" y="41.0" />
+    </edge>
+    <edge source="com.ProjectManager" target="com.Employer">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="242.0" y="123.0" />
+  <SelectedNodes>
+    <node>com.Test</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

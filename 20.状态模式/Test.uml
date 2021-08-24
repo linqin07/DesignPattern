@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Test</OriginalElement>
+  <nodes>
+    <node x="187.0" y="132.0">Context</node>
+    <node x="195.5" y="0.0">Weather</node>
+    <node x="391.0" y="332.0">Rain</node>
+    <node x="211.0" y="344.0">Test</node>
+    <node x="0.0" y="332.0">Sunshine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Sunshine" target="Weather">
+      <point x="-47.75" y="-41.0" />
+      <point x="47.75" y="107.0" />
+      <point x="214.6" y="107.0" />
+      <point x="-76.4" y="41.0" />
+    </edge>
+    <edge source="Test" target="Context">
+      <point x="-40.0" y="-29.0" />
+      <point x="251.0" y="307.0" />
+      <point x="265.0" y="307.0" />
+      <point x="-26.0" y="75.0" />
+    </edge>
+    <edge source="Rain" target="Weather">
+      <point x="47.75" y="-41.0" />
+      <point x="534.25" y="107.0" />
+      <point x="367.4" y="107.0" />
+      <point x="76.39999999999998" y="41.0" />
+    </edge>
+    <edge source="Rain" target="Context">
+      <point x="-47.75" y="-41.0" />
+      <point x="438.75" y="307.0" />
+      <point x="369.0" y="307.0" />
+      <point x="78.0" y="75.0" />
+    </edge>
+    <edge source="Context" target="Weather">
+      <point x="0.0" y="-75.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+    <edge source="Weather" target="Context">
+      <point x="38.19999999999999" y="41.0" />
+      <point x="329.2" y="107.0" />
+      <point x="360.3333333333333" y="107.0" />
+      <point x="69.33333333333331" y="-75.0" />
+    </edge>
+    <edge source="Sunshine" target="Context">
+      <point x="47.75" y="-41.0" />
+      <point x="143.25" y="307.0" />
+      <point x="213.0" y="307.0" />
+      <point x="-78.0" y="75.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="420.0" y="325.0" />
+  <SelectedNodes>
+    <node>Test</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

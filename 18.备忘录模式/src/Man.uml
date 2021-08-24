@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Man</OriginalElement>
+  <nodes>
+    <node x="0.0" y="212.0">Caretaker</node>
+    <node x="89.875" y="424.0">Test</node>
+    <node x="83.375" y="0.0">Text</node>
+    <node x="178.0" y="176.0">Man</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Test" target="Caretaker">
+      <point x="-60.0" y="-29.0" />
+      <point x="109.875" y="399.0" />
+      <point x="39.5" y="399.0" />
+      <point x="-39.5" y="63.0" />
+    </edge>
+    <edge source="Caretaker" target="Text">
+      <point x="-39.5" y="-63.0" />
+      <point x="39.5" y="151.0" />
+      <point x="105.0" y="151.0" />
+      <point x="-64.875" y="63.0" />
+    </edge>
+    <edge source="Test" target="Man">
+      <point x="20.0" y="-29.0" />
+      <point x="189.875" y="399.0" />
+      <point x="221.25" y="399.0" />
+      <point x="-43.25" y="99.0" />
+    </edge>
+    <edge source="Man" target="Text">
+      <point x="43.25" y="-99.0" />
+      <point x="307.75" y="151.0" />
+      <point x="234.75" y="151.0" />
+      <point x="64.875" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="35.0" y="250.0" />
+  <SelectedNodes>
+    <node>Caretaker</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

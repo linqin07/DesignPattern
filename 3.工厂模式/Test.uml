@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Test</OriginalElement>
+  <nodes>
+    <node x="158.765625" y="0.0">Shape</node>
+    <node x="130.234375" y="246.0">Test</node>
+    <node x="0.0" y="82.0">Rectangle</node>
+    <node x="65.734375" y="164.0">ShapeFactory</node>
+    <node x="135.0" y="82.0">Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ShapeFactory" target="Square">
+      <point x="17.25" y="-16.0" />
+      <point x="151.984375" y="134.0" />
+      <point x="181.5" y="134.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="Rectangle" target="Shape">
+      <point x="0.0" y="-16.0" />
+      <point x="57.5" y="62.0" />
+      <point x="169.390625" y="62.0" />
+      <point x="-31.875" y="16.0" />
+    </edge>
+    <edge source="Test" target="ShapeFactory">
+      <point x="-26.0" y="-16.0" />
+      <point x="143.234375" y="221.0" />
+      <point x="100.234375" y="221.0" />
+      <point x="-34.5" y="16.0" />
+    </edge>
+    <edge source="Rectangle" target="ShapeFactory">
+      <point x="28.75" y="16.0" />
+      <point x="86.25" y="134.0" />
+      <point x="117.484375" y="134.0" />
+      <point x="-17.25" y="-16.0" />
+    </edge>
+    <edge source="ShapeFactory" target="Rectangle">
+      <point x="-51.75" y="-16.0" />
+      <point x="82.984375" y="144.0" />
+      <point x="28.75" y="144.0" />
+      <point x="-28.75" y="16.0" />
+    </edge>
+    <edge source="Square" target="Shape">
+      <point x="0.0" y="-16.0" />
+      <point x="181.5" y="62.0" />
+      <point x="190.640625" y="62.0" />
+      <point x="-10.625" y="16.0" />
+    </edge>
+    <edge source="Test" target="Shape">
+      <point x="26.0" y="-16.0" />
+      <point x="195.234375" y="221.0" />
+      <point x="251.140625" y="221.0" />
+      <point x="251.140625" y="52.0" />
+      <point x="233.140625" y="52.0" />
+      <point x="31.875" y="16.0" />
+    </edge>
+    <edge source="ShapeFactory" target="Shape">
+      <point x="51.75" y="-16.0" />
+      <point x="186.484375" y="144.0" />
+      <point x="238.5" y="144.0" />
+      <point x="238.5" y="62.0" />
+      <point x="211.890625" y="62.0" />
+      <point x="10.625" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="128.5" y="139.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.news.Approver</OriginalElement>
+  <nodes>
+    <node x="173.0" y="132.0">com.news.CEO</node>
+    <node x="346.0" y="132.0">com.news.Manager</node>
+    <node x="108.5" y="0.0">com.news.Approver</node>
+    <node x="0.0" y="235.0">com.news.Test</node>
+    <node x="0.0" y="132.0">com.news.Staff</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.news.Manager" target="com.news.Approver">
+      <point x="0.0" y="-29.0" />
+      <point x="422.5" y="107.0" />
+      <point x="343.5" y="107.0" />
+      <point x="94.0" y="41.0" />
+    </edge>
+    <edge source="com.news.Staff" target="com.news.Approver">
+      <point x="0.0" y="-29.0" />
+      <point x="76.5" y="107.0" />
+      <point x="155.5" y="107.0" />
+      <point x="-94.0" y="41.0" />
+    </edge>
+    <edge source="com.news.CEO" target="com.news.Approver">
+      <point x="0.0" y="-29.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="54.0" y="16.0" />
+  <SelectedNodes>
+    <node>com.news.Staff</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

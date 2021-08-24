@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Test</OriginalElement>
+  <nodes>
+    <node x="0.0" y="159.0">Context</node>
+    <node x="118.25" y="0.0">Expression</node>
+    <node x="145.0" y="159.0">Test</node>
+    <node x="188.0" y="82.0">AdvanceExpression</node>
+    <node x="0.0" y="82.0">SimpleExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SimpleExpression" target="Expression">
+      <point x="0.0" y="-16.0" />
+      <point x="84.0" y="57.0" />
+      <point x="149.0" y="57.0" />
+      <point x="-30.75" y="16.0" />
+    </edge>
+    <edge source="AdvanceExpression" target="Expression">
+      <point x="0.0" y="-16.0" />
+      <point x="275.5" y="57.0" />
+      <point x="210.5" y="57.0" />
+      <point x="30.75" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="39.0" y="16.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

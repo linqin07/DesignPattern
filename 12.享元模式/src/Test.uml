@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Test</OriginalElement>
+  <nodes>
+    <node x="98.00000000000001" y="0.0">Flyweight</node>
+    <node x="124.42857142857144" y="246.0">Test</node>
+    <node x="30.000000000000014" y="164.0">FlyweightFactory</node>
+    <node x="0.0" y="82.0">FlyweightImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FlyweightImpl" target="Flyweight">
+      <point x="0.0" y="-16.0" />
+      <point x="72.5" y="57.0" />
+      <point x="117.16666666666667" y="57.0" />
+      <point x="-38.33333333333334" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.5" y="139.0" />
+  <SelectedNodes>
+    <node>FlyweightFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
