@@ -1,3 +1,5 @@
+package com;
+
 /**
  * @Description:
  * @author: LinQin
@@ -18,7 +20,7 @@ public class Rain implements Weather {
 class Sunshine implements Weather {
     @Override
     public String getWeather() {
-        return "Sunshine";
+        return "com.Sunshine";
     }
 
     @Override
